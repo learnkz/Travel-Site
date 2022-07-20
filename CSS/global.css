@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    color: #335576;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 100;
+    margin-left: 4rem;
+}
+
+.navbar ul li {
+    border-color: #DB7a4E;
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 3rem;
+    margin-top: -0.4rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 3rem 1rem 2rem 3rem;
+    color: #335576;
+    background-color: #FEFAF5;
+}
+
+.footer div {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: auto;
+}
+
+.footer h2 {
+    font-size: 1.2rem;
+}
+
+.hours {
+    display: flex;
+    position: relative;
+}
+
+.odd {
+    margin-bottom: -3rem;
+}
+
+.hours-days {
+    color: #DB7a4E;
+    font-size: 0.5rem;
+    font-weight: 100;
+    margin-top: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.hours-days-time {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.weekends {
+    margin-top: 3.8rem;
+}
+
+.email {
+    color: #DB7A4E;
+    font-size: 0.5rem;
+    font-weight: 100;
+    margin-top: 1.8rem;
+}
+
+.email-id {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.icon {
+    margin-right: 2rem;
+    margin-top: 1.9rem;
+}

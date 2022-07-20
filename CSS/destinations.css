@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+/* <div>
+            <img class="background-image" src="../Assets/Images/hawaii.jpg">
+        </div> */

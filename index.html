@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,74 +11,96 @@
         media="(mi-width:1280px)" href="./CSS/main.css">
     <link rel="stylesheet"
         media="(mi-width:1280px)" href="./CSS/global.css">     -->
-        
+
     <title>Travel Site</title>
 </head>
+
 <body>
-<!--Navigation bar Global-->
+    <!--Navigation bar Global-->
     <section>
-        <nav>
-            <h2>Travel site</h2>
-            <ul>
-                <li>Home</li>
-                <li>Hawaii</li>
-                <li>Iceland</li>
-                <li>Greece</li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <nav>
+                <h2> <a href="./index.html">Travel site</a>
+                    <ul>
+                        <li>
+                            <a href="./index.html">Home</a></li>
+                        <li>
+                            <a href="Pages/hawaii.html">Hawaii</a></li>
+                        <li>
+                            <a href="Pages/iceland.html">Iceland</a></li>
+                        <li>
+                            <a href="Pages/greece.html">Greece</a></li>
+                    </ul>
+                </h2>
+            </nav>
+        </div>
     </section>
 
-<!--Get Started-->
-    <section>
-        <h1>Travelling Comes With Endless Discoveries</h1>
-        <h3>Don't let your dreams be just dreams. Experience the world by booking 
-            <br>vacation with us now</br>
-        </h3>
-        <button>Get Started</button>
-        <img src="./Assets/Images/hero.png" alt="hero">
+    <!--Get Started-->
+    <section class="get-started">
+        <div>
+            <h1>Travelling Comes With <br>Endless Discoveries</h1>
+            <h3>Don't let your dreams be just dreams. Experience the world by booking
+                <br>vacation with us now</br>
+            </h3>
+            <button>Get started</button>
+        </div>
+        <div>
+            <img class="get-started-img" src="./Assets/Images/hero.png" alt="hero" width="400rem" height="300rem">
+        </div>
     </section>
 
-<!--Recommendations-->
+    <!--Recommendations-->
     <section>
-        <h2>Recommendations</h2>
-        <div><img src="./Assets/Images/hawaii.jpg" alt="Hawaii"></div>
-        <div><img src="./Assets/Images/iceland.jpg" alt="Iceland"></div>
-        <div><img src="./Assets/Images/greece.jpg" alt="Greece"></div>
+        <h2 class="recommendations">Recommendations</h2>
+        <div class="destination-card">
+            <div class="desitination-img"><img src="./Assets/Images/hawaii.jpg" alt="Hawaii" width="300" height="500">
+                <h2 class="desitination-name">Hawaii</h2>
+            </div>
+            <div class="desitination-img"><img src="./Assets/Images/iceland.jpg" alt="Iceland" width="300" height="500">
+                <h2 class="desitination-name">Iceland</h2>
+            </div>
+            <div class="desitination-img"><img src="./Assets/Images/greece.jpg" alt="Greece" width="300" height="500">
+                <h2 class="desitination-name">Greece</h2>
+            </div>
+        </div>
     </section>
 
-<!--Footer Global-->
-    <section>
-    <!--Contact-->
+    <!--Footer Global-->
+    <section class="footer">
+        <!--Contact-->
         <div>
             <h2>Contact</h2>
-            <h4>EMAIL</h4>
-            <h4>info@travelsite.com</h4>            
+            <h4 class="email">EMAIL</h4>
+            <h4 class="email-id">info@travelsite.com</h4>
         </div>
-    <!--Hours-->
-        <div>
-            <h2>Hours</h2>
+        <!--Hours-->
+        <div class="hours">
+
             <div>
-                <h4>Monday - Friday</h4>
-                <h4>9:00 AM - 5:00PM</h4>           
+                <h2 class="odd">Hours</h2>
+                <h4 class="hours-days">Monday - Friday</h4>
+                <h4 class="hours-days-time">9:00 AM - 5:00PM</h4>
             </div>
             <div>
-                <h4>Saturday</h4>
-                <h4>10:00 AM - 4:00PM</h4> 
+                <h4 class="hours-days weekends">Saturday</h4>
+                <h4 class="hours-days-time">10:00 AM - 4:00PM</h4>
             </div>
             <div>
-                <h4>Sunday</h4>
-                <h4>Closed</h4> 
+                <h4 class="hours-days weekends">Sunday</h4>
+                <h4 class="hours-days-time">Closed</h4>
             </div>
         </div>
 
-    <!--Social-->
+        <!--Social-->
         <div>
             <h2>Social</h2>
-                <em><a href= "https://www.instagram.com"><img src="./Assets/Icons/icon-instagram.png" alt="instagram" width="" height=""></a></em>
-                <em><a href= "https://www.facebook.com/"><img src="./Assets/Icons/icon-facebook.png" alt="facebook" width="" height=""></a></em>
-                <em><a href= "https://twitter.com"><img src="./Assets/Icons/icon-twitter.png" alt="twitter" width="" height=""></a></em>
-            </div>
+            <em><a href= "https://www.instagram.com"><img class="icon" src="./Assets/Icons/icon-instagram.png" alt="instagram" width="20" height="20"></a></em>
+            <em><a href= "https://www.facebook.com/"><img class="icon" src="./Assets/Icons/icon-facebook.png" alt="facebook" width="10" height="20"></a></em>
+            <em><a href= "https://twitter.com"><img class="icon" src="./Assets/Icons/icon-twitter.png" alt="twitter" width="20" height="20"></a></em>
+        </div>
     </section>
-    
+
 </body>
+
 </html>
