@@ -20,12 +20,16 @@
     <header>
         <nav class="navbar">
             <section>
-                <h2 class="navbar__header">Travel site</h2>
+                <h2><a class="navbar__header" href="/index.html">Travel site</a>
+                </h2>
             </section>
-            <a class="navbar__link  underline" href="./index.html">Home</a></li>
-            <a class="navbar__link" href="Pages/hawaii.html">Hawaii</a></li>
-            <a class="navbar__link" href="Pages/iceland.html">Iceland</a></li>
-            <a class="navbar__link" href="Pages/greece.html">Greece</a></li>
+            <ul>
+                <a class="navbar__link  underline" href="./index.html">Home</a>
+                <a class="navbar__link" href="Pages/hawaii.html">Hawaii</a>
+                <a class="navbar__link" href="Pages/iceland.html">Iceland</a>
+                <a class="navbar__link" href="Pages/greece.html">Greece</a>
+
+            </ul>
         </nav>
     </header>
 
@@ -33,8 +37,8 @@
     <main>
         <section class="get-started">
             <div>
-                <h1>Travelling Comes With <br>Endless Discoveries</h1>
-                <h3>Don't let your dreams be just dreams. Experience the world by booking
+                <h1 class="get-started__hero">Travelling Comes With <br>Endless Discoveries</h1>
+                <h3 class="get-started__exp">Don't let your dreams be just dreams. Experience the world by booking
                     <br>vacation with us now</br>
                 </h3>
                 <button>Get started</button>
@@ -48,20 +52,29 @@
     <section>
         <h2 class="recommendations">Recommendations</h2>
         <div class="destination-card">
-            <div class="desitination-img"><img src="./Assets/Images/hawaii.jpg" alt="Hawaii" width="300" height="500">
+            <div class="desitination-img">
+                <a href="Pages/hawaii.html">
+                    <img src="./Assets/Images/hawaii.jpg" alt="Hawaii" width="300" height="500"></a>
                 <h2 class="desitination-name">Hawaii</h2>
             </div>
-            <div class="desitination-img"><img src="./Assets/Images/iceland.jpg" alt="Iceland" width="300" height="500">
+            <div class="desitination-img">
+                <a href="Pages/iceland.html">
+                    <img src="./Assets/Images/iceland.jpg" alt="Iceland" width="300" height="500"></a>
                 <h2 class="desitination-name">Iceland</h2>
+
             </div>
-            <div class="desitination-img"><img src="./Assets/Images/greece.jpg" alt="Greece" width="300" height="500">
+            <div class="desitination-img">
+                <a href="Pages/greece.html">
+                    <img src="./Assets/Images/greece.jpg" alt="Greece" width="300" height="500">
+                </a>
                 <h2 class="desitination-name">Greece</h2>
+
             </div>
         </div>
     </section>
 
     <!--Footer Global-->
-    <section class="footer">
+    <footer class="footer">
         <!--Contact-->
         <div class="contact">
             <h2>Contact</h2>
@@ -94,7 +107,7 @@
             <em><a href= "https://www.facebook.com/"><img class="icon" src="./Assets/Icons/icon-facebook.png" alt="facebook" width="10" height="20"></a></em>
             <em><a href= "https://twitter.com"><img class="icon" src="./Assets/Icons/icon-twitter.png" alt="twitter" width="20" height="20"></a></em>
         </div>
-    </section>
+    </footer>
 
 </body>
 

@@ -23,8 +23,10 @@ body {
 .navbar__header {
     font-size: 1rem;
     font-weight: bold;
-    margin-right: 48rem;
+    margin-right: 45rem;
     margin-left: 3.5rem;
+    text-decoration: none;
+    margin-bottom: 0;
 }
 
 .navbar__link {
@@ -32,12 +34,16 @@ body {
     text-decoration: none;
     margin-left: 0.8rem;
     margin-bottom: 0;
-    margin-top: 0.8rem;
+    margin-top: 0.5rem;
     justify-content: center;
 }
 
 .navbar__link:hover {
     text-decoration: underline;
+}
+
+.navbar__header:hover {
+    text-decoration: none;
 }
 
 .underline {
@@ -79,7 +85,7 @@ body {
 }
 
 .hours-days {
-    color: #DB7a4E;
+    color: #DB7A4E;
     font-size: 0.5rem;
     font-weight: 100;
     margin-top: 4.5rem;
