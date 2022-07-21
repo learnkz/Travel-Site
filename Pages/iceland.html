@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/destinations.css">
+    <link rel="stylesheet" href="../CSS/destinations.css">
     <link rel="stylesheet" href="../CSS/global.css">
     <!-- <link rel="stylesheet"
         media="(mi-width:1280px)" href="./CSS/global.css">
@@ -16,22 +16,87 @@
 
 <body>
     <!--Navigation bar Global-->
+    <header>
+        <nav class="navbar">
+            <section>
+                <h2 class="navbar__header">Travel site</h2>
+            </section>
+            <a class="navbar__link" href="./index.html">Home</a></li>
+            <a class="navbar__link" href="Pages/hawaii.html">Hawaii</a></li>
+            <a class="navbar__link underline" href="Pages/iceland.html">Iceland</a></li>
+            <a class="navbar__link" href="Pages/greece.html">Greece</a></li>
+        </nav>
+    </header>
+    <!--Destination details-->
+
     <section>
-        <div class="navbar">
-            <nav>
-                <h2>Travel site
-                    <ul>
-                        <li>
-                            <a href="./index.html">Home</a></li>
-                        <li>
-                            <a href="Pages/hawaii.html">Hawaii</a></li>
-                        <li>
-                            <a href="Pages/iceland.html">Iceland</a></li>
-                        <li>
-                            <a href="Pages/greece.html">Greece</a></li>
-                    </ul>
-                </h2>
-            </nav>
+        <div style="background-image: url('../Assets/Images/iceland.jpg'); 
+        background-size: cover; 
+        height: 100vh;
+        background-position: center;">
+            <h2 class="desitination-name">Iceland</h2>
+            <div class="iternary">
+                <div class="iternary-days">
+                    <div class="iternary-day">Friday</div>
+                    <div class="iternary-list">Breakfast</div>
+                    <div class="iternary-list">Lunch</div>
+                    <div class="iternary-list">Dinner</div>
+                    <div class="iternary-list">Snorkeling</div>
+                </div>
+                <div class="iternary-days">
+                    <h2 class="iternary-saturday">Saturday</h2>
+                    <h3 class="iternary-list">Breakfast</h3>
+                    <h3 class="iternary-list">Lunch</h3>
+                    <h3 class="iternary-list">Dinner</h3>
+                    <h3 class="iternary-list">Snorkeling</h3>
+                </div>
+                <div class="iternary-days">
+                    <h2 class="iternary-sunday">Sunday</h2>
+                    <h3 class="iternary-list">Breakfast</h3>
+                    <h3 class="iternary-list">Lunch</h3>
+                    <h3 class="iternary-list">Dinner</h3>
+                    <h3 class="iternary-list">Snorkeling</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!--Footer Global-->
+    <section class="footer">
+        <!--Contact-->
+        <div class="contact">
+            <h2>Contact</h2>
+            <h4 class="email">EMAIL</h4>
+            <h4 class="email-id">info@travelsite.com</a>
+            </h4>
+        </div>
+        <!--Hours-->
+        <div class="hours">
+
+            <div>
+                <h2 class="odd">Hours</h2>
+                <h4 class="hours-days">Monday - Friday</h4>
+                <h4 class="hours-days-time">9:00 AM - 5:00PM</h4>
+            </div>
+            <div>
+                <h4 class="hours-days weekends">Saturday</h4>
+                <h4 class="hours-days-time">10:00 AM - 4:00PM</h4>
+            </div>
+            <div>
+                <h4 class="hours-days weekends">Sunday</h4>
+                <h4 class="hours-days-time">Closed</h4>
+            </div>
+        </div>
+
+        <!--Social-->
+        <div>
+            <h2 class="social">Social</h2>
+            <em><a href= "https://www.instagram.com"><img class="icon" src="../Assets/Icons/icon-instagram.png" alt="instagram" width="20" height="20"></a></em>
+            <em><a href= "https://www.facebook.com/"><img class="icon" src="../Assets/Icons/icon-facebook.png" alt="facebook" width="10" height="20"></a></em>
+            <em><a href= "https://twitter.com"><img class="icon" src="../Assets/Icons/icon-twitter.png" alt="twitter" width="20" height="20"></a></em>
         </div>
     </section>
 </body>

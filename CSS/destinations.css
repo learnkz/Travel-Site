@@ -4,13 +4,79 @@
     box-sizing: border-box;
 }
 
-.table {
-    display: flex;
-    justify-content: center;
-    position: relative;
+body {
+    margin: 0;
 }
 
+.desitination-name {
+    position: absolute;
+    top: 3rem;
+    color: #FFFFFF;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 11rem;
+    font-size: 5rem;
+}
 
-/* <div>
-            <img class="background-image" src="../Assets/Images/hawaii.jpg">
-        </div> */
+.iternary {
+    /* background-image: url("../Assets/Images/hawaii.jpg");  // for future reference */
+    /* height: 75vh; */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10rem;
+}
+
+.iternary-days {
+    background-color: #FFFFFF;
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: -1rem;
+    padding-bottom: 2.5rem;
+}
+
+.iternary-day {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-bottom: solid;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.8rem;
+}
+
+.iternary-saturday {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+    border-bottom: solid;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.8rem;
+}
+
+.iternary-sunday {
+    padding-left: 2.7rem;
+    padding-right: 2.7rem;
+    border-bottom: solid;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.8rem;
+}
+
+.iternary-list {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.6rem;
+    font-weight: 100;
+    background-color: #FEFAF5;
+    font-display: center;
+    text-align: center;
+    margin-top: 1rem
+}
+
+.destination-page {}
